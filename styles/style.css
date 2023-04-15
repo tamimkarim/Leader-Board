@@ -77,9 +77,25 @@ hr{
 
 /* courses section */
 
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    
+}
+.course{
+    margin: 5px 5px;
+}
+
 .course img{
     width: 224px;
     height: 104px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 }
 .fa-star{
     font-size: 12px;
@@ -89,4 +105,8 @@ hr{
 }
 .fa-star.empty{
     color: #AEAEAE
+}
+.course-duration{
+    background-color: rgb(237, 214, 214);
+    border-radius: 5px;
 }
