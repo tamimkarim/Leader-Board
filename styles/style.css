@@ -81,10 +81,12 @@ hr{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: space-between;
+    grid-column-gap: 35px;
     
 }
 .course{
     margin: 5px 5px;
+    
 }
 
 .course img{
